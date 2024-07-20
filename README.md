@@ -1,16 +1,16 @@
     updated on: 20th July 2024, Saturday
 
 <div align=center>
-    <a href="https://github.com/warmachine028/graph-ql">
-        <img width="200" src="https://img.icons8.com/?size=1000&id=46874" alt="graph-ql">
+    <a href="https://github.com/warmachine028/graph-ql-server">
+        <img width="200" src="https://img.icons8.com/?size=1000&id=46874" alt="graph-ql-server">
     </a>
     <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> A good one liner description here </p>
-    <a src="https://github.com/warmachine028/graph-ql/forks">
-        <img alt="GitHub forks" src="https://img.shields.io/github/forks/warmachine028/graph-ql">
+    <a src="https://github.com/warmachine028/graph-ql-server/forks">
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/warmachine028/graph-ql-server">
     </a>
 </div>
 
-# [Graph QL](https://github.com/warmachine028/graph-ql)
+# [Graph QL Server](https://github.com/warmachine028/graph-ql-server)
 
 ![line]
 
@@ -27,8 +27,8 @@
 
 ## Introduction
 
-- Go to [`.github/workflows`](.github/workflows) and for each workflow replace *graph-ql* with *repo-name*.
-- Press `ctrl+F` and `graph-ql` then replace all with your `repo-name`.
+- Go to [`.github/workflows`](.github/workflows) and for each workflow replace *graph-ql-server* with *repo-name*.
+- Press `ctrl+F` and `graph-ql-server` then replace all with your `repo-name`.
 - To enable the workflows, go to `settings/actions` in your repo and change "Workflow Permissions" from "Read repository contents ..." to "Read and Write ..."
 - To configure automatic preview generation, replace [`url`](.github/take-snapshot.mjs#L5) with your hosted URL.
 - Configure the [CodeQL Analysis](.github/workflows/codeql-analysis.yml) according to your tech stack/language.
@@ -65,8 +65,8 @@
 ## Best Contributors
 
 <div align="center">
-    <a  href="https://github.com/warmachine028/graph-ql/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=warmachine028/graph-ql" />
+    <a  href="https://github.com/warmachine028/graph-ql-server/graphs/contributors">
+        <img src="https://contrib.rocks/image?repo=warmachine028/graph-ql-server" />
     </a>
 </div>
 
@@ -83,6 +83,6 @@
 ## Thank you, everyone 💚
 
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
-[License]: https://github.com/warmachine028/graph-ql/blob/main/LICENSE
+[License]: https://github.com/warmachine028/graph-ql-server/blob/main/LICENSE
 
 <!-- 20/07/24 -->
