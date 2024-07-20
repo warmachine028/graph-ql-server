@@ -4,7 +4,7 @@
     <a href="https://github.com/warmachine028/graph-ql-server">
         <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="graph-ql-server">
     </a>
-    <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> A good one liner description here </p>
+    <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> A repository to learn GraphQL with REST api </p>
     <a src="https://github.com/warmachine028/graph-ql-server/forks">
         <img alt="GitHub forks" src="https://img.shields.io/github/forks/warmachine028/graph-ql-server">
     </a>
