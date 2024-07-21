@@ -1,26 +1,39 @@
 {
-  "name": "graph-ql-server",
-  "version": "1.0.0",
-  "main": "src/index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc",
-    "start": "npm run compile && node ./dist/index.js"
-  },
-  "repository": {
-    "url": "https://github.com/warmachine028/graph-ql-server"
-  },
-  "keywords": [],
-  "author": "Pritam Kundu",
-  "license": "ISC",
-  "description": "",
-  "type": "module",
-  "dependencies": {
-    "@apollo/server": "^4.10.4",
-    "graphql": "^16.9.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.14.11",
-    "typescript": "^5.5.3"
-  }
+	"name": "graph-ql-server",
+	"version": "1.0.0",
+	"description": "A basic Graph QL Server",
+	"exports": "./dist/index.js",
+	"type": "module",
+	"private": true,
+	"license": "MIT",
+	"author": {
+		"name": "Pritam Kundu",
+		"email": "warmachine028@outlook.com",
+		"url": "https://github.com/warmachine028"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "pkgroll",
+		"start": "npm run build && node dist/index.js",
+		"dev": "nodemon"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/warmachine028/graph-ql-server"
+	},
+	"keywords": [
+		"typescript",
+		"graphQL",
+		"nodeJS"
+	],
+	"dependencies": {
+		"@apollo/server": "^4.10.4",
+		"graphql": "^16.9.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.14.11",
+		"nodemon": "^3.1.4",
+		"tsx": "^4.16.2",
+		"typescript": "^5.5.3"
+	}
 }
