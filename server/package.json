@@ -13,8 +13,8 @@
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "pkgroll",
-		"start": "npm run build && node dist/index.js",
+		"build": "npm i --only=dev && pkgroll",
+		"start": "node dist/index.js",
 		"dev": "nodemon"
 	},
 	"repository": {
@@ -29,10 +29,10 @@
 	"dependencies": {
 		"@apollo/server": "^4.10.4",
 		"dotenv": "^16.4.5",
-		"pkgroll": "^2.4.1",
 		"graphql": "^16.9.0"
 	},
 	"devDependencies": {
+		"pkgroll": "^2.4.1",
 		"@types/node": "^20.14.11",
 		"nodemon": "^3.1.4",
 		"tsx": "^4.16.2",
