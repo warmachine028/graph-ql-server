@@ -5,7 +5,6 @@ updates:
     schedule:
       interval: daily
       time: "21:00"
-    open-pull-requests-limit: 10
     ignore:
       - dependency-name: stylelint-config-standard
         versions:
@@ -69,14 +68,3 @@ updates:
       interval: daily
       time: "21:00"
     open-pull-requests-limit: 10
-- package-ecosystem: maven
-  directory: "server"
-  schedule:
-    interval: daily
-  ignore:
-    # ignore Maven APIs/SPIs
-    - dependency-name: org.apache.maven:*
-- package-ecosystem: "github-actions"
-  directory: "server"
-  schedule:
-    interval: "daily"
