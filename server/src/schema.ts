@@ -1,3 +1,5 @@
+import db from './db/data.js'
+
 export const typeDefs = `#graphql
     type Game {
         id: ID!
@@ -17,8 +19,26 @@ export const typeDefs = `#graphql
     type Query {
         games: [Game]
         reviews: [Review]
+        review(id: ID!): Review
         authors: [Author]
     }
 `
+
+export const resolvers = {
+    Query: {
+        games() {
+            return db.games
+        },
+        reviews() {
+            return db.reviews
+        },
+        authors() {
+            return db.authors
+        },
+        review(_: {}, { id }: { id: string }) {
+            return db.reviews.find((review) => review.id === id)
+        }
+    }
+}
 
 // int, float, string, boolean, ID

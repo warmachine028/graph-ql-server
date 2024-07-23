@@ -1,15 +1,16 @@
 name: 🙏 Welcome First Time Contributors
 
 on: [pull_request_target, issues]
+
 jobs:
-    greeting:
+    welcome:
         runs-on: ubuntu-latest
         permissions:
             issues: write
             pull-requests: write
         steps:
             - uses: actions/first-interaction@main
-              if: ${{ github.event.sender.login != github.repository_owner }}
+              if: ${{ github.event.sender.login != github.repository_owner && !contains(fromJson('[ "dependabot[bot]", "dependabot-preview[bot]", "allcontributors"]'), github.actor) }}
               with:
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
                   issue-message: |
