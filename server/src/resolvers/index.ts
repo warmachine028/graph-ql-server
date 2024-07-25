@@ -47,12 +47,13 @@ export const resolvers = {
             return db.games
         },
         addGame(_: {}, { game: newGame }: { game: Game }): Game {
-            const game = {
-                ...newGame,
-                id: customAlphabet('1234567890', 5)()
-            }
+            const game = { ...newGame, id: customAlphabet('1234567890', 5)() }
             db.games.push(game)
             return game
+        },
+        editGame(_: {}, { id, game: edits }: { id: string; game: Game }): Game {
+            db.games = db.games.map((game) => (game.id === id ? { ...game, ...edits } : game))
+            return db.games.find((game) => game.id === id)
         }
     }
 }

@@ -1,0 +1,8 @@
+mutation EditGameMutation($id: ID!, $game: EditGame!) {
+    editGame(id: $id, game: $game) {
+        title
+        platform
+    }
+}
+
+# { "id": "5", "game":{ "title": "Zelda 5" } }
