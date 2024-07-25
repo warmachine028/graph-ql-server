@@ -29,12 +29,13 @@
 	"dependencies": {
 		"@apollo/server": "^4.10.5",
 		"dotenv": "^16.4.5",
-		"graphql": "^16.9.0"
+		"graphql": "^16.9.0",
+		"nanoid": "^5.0.7"
 	},
 	"devDependencies": {
-		"pkgroll": "^2.4.1",
 		"@types/node": "^20.14.12",
 		"nodemon": "^3.1.4",
+		"pkgroll": "^2.4.1",
 		"tsx": "^4.16.2",
 		"typescript": "^5.5.4"
 	}
