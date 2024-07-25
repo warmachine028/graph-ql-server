@@ -1,19 +1,15 @@
 import { ApolloServer } from '@apollo/server'
 import { startStandaloneServer } from '@apollo/server/standalone'
-import { typeDefs, resolvers } from 'schema.js'
+import { typeDefs } from 'models/schema.js'
+import { resolvers } from 'controllers/resolver.js'
 import dotenv from 'dotenv'
 
 dotenv.config()
 
 const PORT = parseInt(process.env.PORT)
 
-const server = new ApolloServer({
-    typeDefs,
-    resolvers
-})
+const server = new ApolloServer({ typeDefs, resolvers })
 
-const { url } = await startStandaloneServer(server, {
-    listen: { port: PORT }
-})
-
-console.log(`🚀 Server ready at: ${url}`)
+startStandaloneServer(server, { listen: { port: PORT } })
+    .then(({ url }) => console.log(`🚀 Server ready at: ${url}`))
+    .catch((error) => console.error(error))
