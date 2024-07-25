@@ -1,0 +1,13 @@
+query GamesQuery {
+    games {
+        id
+        title
+        platform
+        reviews {
+            content
+            author {
+                name
+            }
+        }
+    }
+}

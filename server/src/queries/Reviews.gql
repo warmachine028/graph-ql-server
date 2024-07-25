@@ -1,0 +1,12 @@
+query ReviewsQuery {
+    reviews {
+        game {
+            title
+        }
+        rating
+        content
+        author {
+            name
+        }
+    }
+}

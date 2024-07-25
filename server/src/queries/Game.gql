@@ -1,0 +1,11 @@
+query GameQuery($id: ID!) {
+    game(id: $id) {
+        id
+        title
+        reviews {
+            content
+        }
+    }
+}
+
+# body: { "id": "1" }

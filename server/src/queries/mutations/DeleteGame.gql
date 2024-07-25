@@ -1,0 +1,9 @@
+mutation DeleteGameMutation($id: ID!) {
+    deleteGame(id: $id) {
+        id
+        title
+        platform
+    }
+}
+
+# body: { "id": "1" }

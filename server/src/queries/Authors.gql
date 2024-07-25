@@ -1,0 +1,10 @@
+query AuthorsQuery {
+    authors {
+        id
+        name
+        verified
+        reviews {
+            content
+        }
+    }
+}

@@ -1,0 +1,9 @@
+mutation AddGameMutation($game: NewGame!) {
+    addGame(game: $game) {
+        id
+        title
+        platform
+    }
+}
+
+# { "game": { "title": "Zelda", "platform": ["IOS", "Android", "PS4", "PS5"] } }

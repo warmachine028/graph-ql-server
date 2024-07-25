@@ -1,0 +1,13 @@
+query ReviewQuery($id: ID!) {
+    review(id: $id) {
+        rating
+        game {
+            title
+        }
+        author {
+            name
+        }
+    }
+}
+
+# body: { "id": "1" }

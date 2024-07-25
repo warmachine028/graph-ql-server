@@ -1,0 +1,11 @@
+query AuthorQuery($id: ID!) {
+    author(id: $id) {
+        name
+        id
+        reviews {
+            content
+        }
+    }
+}
+
+# body: { "id": "1" }
