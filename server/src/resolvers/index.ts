@@ -54,6 +54,10 @@ export const resolvers = {
         editGame(_: {}, { id, game: edits }: { id: string; game: Game }): Game {
             db.games = db.games.map((game) => (game.id === id ? { ...game, ...edits } : game))
             return db.games.find((game) => game.id === id)
+        },
+        updateGame(_: {}, { id, game: updatedGame }: { id: string; game: Game }): Game {
+            db.games = db.games.map((game) => (game.id === id ? { id, ...updatedGame } : game))
+            return db.games.find((game) => game.id === id)
         }
     }
 }
