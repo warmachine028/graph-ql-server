@@ -1,4 +1,4 @@
-    updated on: 25th July 2024, Thursday
+    updated on: 27th July 2024, Saturday
 
 <div align=center>
     <a href="https://github.com/warmachine028/graph-ql-server">
@@ -82,4 +82,4 @@
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
 [License]: https://github.com/warmachine028/graph-ql-server/blob/main/LICENSE
 
-<!-- 25/07/24 -->
+<!-- 27/07/24 -->
