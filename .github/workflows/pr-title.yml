@@ -11,7 +11,7 @@ jobs:
         steps:
             - uses: amannn/action-semantic-pull-request@v5
               name: Lint PR Title
-              # if: ${{ !contains(fromJson('[ "dependabot[bot]", "dependabot-preview[bot]", "imgbot[bot]", "allcontributors" ]'), github.actor) }}
+              if: ${{ !contains(fromJson('[ "dependabot[bot]", "dependabot-preview[bot]", "imgbot[bot]", "allcontributors" ]'), github.actor) }}
               id: lint_pr_title
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
