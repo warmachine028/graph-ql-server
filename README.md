@@ -33,7 +33,23 @@
 
 ## Developement
 
-- Steps used for development of this project
+```sh
+$> cd server
+$> npm i         # install packages
+$> npm run dev   # start server
+
+> graph-ql-server@1.0.0 dev
+> nodemon
+
+[nodemon] 3.1.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src\**\*
+[nodemon] watching extensions: js,ts
+[nodemon] starting `tsx src/index.ts`
+🚀 Server ready at: http://localhost:3000/
+
+...
+```
 
 ![line]
 
