@@ -33,7 +33,7 @@
 		"nanoid": "^5.0.7"
 	},
 	"devDependencies": {
-		"@types/node": "^22.5.2",
+		"@types/node": "^22.5.4",
 		"nodemon": "^3.1.4",
 		"pkgroll": "^2.4.2",
 		"tsx": "^4.19.0",
