@@ -31,4 +31,4 @@ jobs:
         with:
           project: "graph-ql-server"
           entrypoint: "server"
-          root: "server"
+          root: ""
