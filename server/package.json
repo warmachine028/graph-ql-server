@@ -28,7 +28,7 @@
 	],
 	"dependencies": {
 		"@apollo/server": "^4.11.2",
-		"dotenv": "^16.4.5",
+		"dotenv": "^16.4.7",
 		"graphql": "^16.9.0",
 		"nanoid": "^5.0.9"
 	},
