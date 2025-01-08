@@ -37,6 +37,6 @@
 		"nodemon": "^3.1.9",
 		"pkgroll": "^2.6.1",
 		"tsx": "^4.19.2",
-		"typescript": "^5.7.2"
+		"typescript": "^5.7.3"
 	}
 }
