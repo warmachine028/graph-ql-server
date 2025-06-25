@@ -1,4 +1,4 @@
-    updated on: 17th June 2025, Tuesday
+    updated on: 25th June 2025, Wednesday
 
 <div align=center>
     <a href="https://github.com/warmachine028/graph-ql-server">
@@ -98,4 +98,4 @@ $> npm run dev   # start server
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
 [License]: https://github.com/warmachine028/graph-ql-server/blob/main/LICENSE
 
-<!-- 17/06/25 -->
+<!-- 25/06/25 -->
