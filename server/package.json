@@ -35,7 +35,7 @@
 	"devDependencies": {
 		"@types/node": "^24.2.0",
 		"nodemon": "^3.1.10",
-		"pkgroll": "^2.15.1",
+		"pkgroll": "^2.15.3",
 		"tsx": "^4.20.3",
 		"typescript": "^5.9.2"
 	}
